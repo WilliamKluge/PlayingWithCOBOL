@@ -18,7 +18,7 @@
        PROCEDURE DIVISION.
       * Will loop through HELLO-LOOP until WS-CNT is 5
            MAIN-PROCEDURE.
-           PERFORM HELLO-LOOP WITH TEST BEFORE UNTIL WS-CNT EQUALS 5.
+           PERFORM HELLO-LOOP WITH TEST BEFORE UNTIL WS-CNT = 5.
            STOP RUN.
       * Prints WS-HELLO and adds one to WS-CNT
            HELLO-LOOP.
