@@ -5,13 +5,12 @@
       * Tectonics: cobc
       ******************************************************************
        IDENTIFICATION DIVISION.
-       PROGRAM-ID. YOUR-PROGRAM-NAME.
+       PROGRAM-ID. POINTER-PRACTICE.
        DATA DIVISION.
        FILE SECTION.
        WORKING-STORAGE SECTION.
       * Alphebetic variable of 11 bytes to hold the text to print
-      *      VALUE "Hello World".
-           01 HELLO-PTR            USAGE POINTER.
+           01 HELLO-PTR                USAGE POINTER.
        LINKAGE SECTION.
            01 HELLO                    PIC A(11).
        PROCEDURE DIVISION.
@@ -22,4 +21,4 @@
             MOVE "Hello World" TO HELLO
             DISPLAY HELLO
             STOP RUN.
-       END PROGRAM YOUR-PROGRAM-NAME.
+       END PROGRAM POINTER-PRACTICE.
