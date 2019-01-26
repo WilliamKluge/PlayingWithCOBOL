@@ -24,9 +24,9 @@
                05 NAME                 PIC A(50).
 
            WORKING-STORAGE SECTION.
-           01  NUMBER-OF-ROWS  PIC 9(08).
-           01  CURRENT-MAX     PIC 9(08).
-           01  DATA-PTR        USAGE POINTER.
+           01  NUMBER-OF-ROWS          PIC 9(08).
+           01  CURRENT-MAX             PIC 9(08).
+           01  DATA-PTR                USAGE POINTER.
       * 10 bytes for up to 1024 entries
            01 WS-TABLE-INDEX           PIC 9(10).
       * "Boolean" for saying if we have reached the end of the file
